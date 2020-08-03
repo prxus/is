@@ -459,7 +459,7 @@ from flask_sqlalchemy import SQLAlchemy
 Agregaremos la llamada a la base de datos
 
 ```python
-app = Flask(_name_) 
+app = Flask(__name__) 
 db = SQLAlchemy(app)
 ```
 
